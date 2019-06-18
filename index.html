@@ -1,23 +1,98 @@
+<!DOCTYPE html>
 <html>
 <head>
+<title>Scalaml</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="icon" href="asset/icon.png" type="image/png">
 </head>
-<body style="background-color:#000;">
-  <div name="banner" style="background-color:#000;">
-    <img src="asset/banner_white.png" height="50">
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Outline & Work -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <!-- <img src="" class="w3-margin w3-circle"> -->
+      <img src="asset/icon_white.png" height="150">
+      <h1>Scalaml Studio</h1>
+      <p>I have no idea why I made this website</p>
+    </div>
+    <div class="w3-padding-16">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Outline</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Our Work</a>
+      <a href="#news" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">News</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
+    </div>
   </div>
-  <br/>
-  <div name="topics" style="background-color:#000;">
-    <img src="asset/icon_white.png" height="200">
-    <img src="asset/mochi_forest.png" height="200">
-    <img src="asset/wei.jpg" height="200">
+
+  <div class="w3-half w3-light-grey w3-center" style="height:700px" id="work">
+    <div class="w3-padding-64">
+      <h2>Our Work</h2>
+      <p>Some of our latest projects</p>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+        <img src="asset/mochi_forest.png" height="100">
+      </div>
+      <div class="w3-half">
+        <img src="asset/icon.png" height="100">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="asset/icon.png" height="100">
+      </div>
+      <div class="w3-half">
+        <img src="asset/mochi_forest.png" height="100">
+      </div>
+    </div>
   </div>
-  <br/>
-  <div name="texts" style="background-color:#FFF;">
-    <font size="6">
-      This website is created for fun.<br/>
-      Not sure what I am going to do with it yet.<br/>
-    </font>
+</div>
+
+<!-- Second Grid: News & Contact -->
+<div class="w3-row">
+  <div class="w3-half w3-indigo w3-container" style="min-height:700px" id="news">
+    <div class="w3-padding-64 w3-center">
+      <h2>News</h2>
+      <p>The history of Scalaml Studio</p>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tr>
+            <th>Time</th>
+            <th>Title</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2019-01-29</td>
+            <td>Purchase Scalaml.com</td>
+          </tr>
+          <tr>
+            <td>2019-05-07</td>
+            <td>Create Github group Scalaml Studio</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2019-06-18</td>
+            <td>Publish the Website</td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </div>
+
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px" id="contact">
+    <div class="w3-padding-64">
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-padding-64">
+      <p>The Milky Way</p>
+      <p>service@scalaml.com</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-white w3-padding-16">
+<a href="#"><img src="asset/banner.png" height="50"></a>
+</footer>
 </body>
 </html>
